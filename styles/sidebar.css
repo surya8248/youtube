@@ -1,0 +1,32 @@
+.sidebar{
+        position: fixed;
+        top: 50px;
+        bottom: 0px;
+        left: 0px;
+        width: 90px;
+        justify-content:center;
+       
+        margin-top: 25px;
+        background-color: white;
+        
+       
+        
+
+       }
+
+      .sidebar img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 23px;
+      }
+      
+       .sidebar div{
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+       }

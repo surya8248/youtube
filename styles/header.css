@@ -1,0 +1,179 @@
+
+.header{
+  background-color: rgb(255, 255, 255);
+  height: 65px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  
+  border-bottom-width:1px ;
+  border-bottom-color:  rgb(215, 215, 215);
+  border-bottom-style: solid;
+ }
+
+ .left-end-header{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     flex: 1;
+     margin-right: 120px;
+ }
+
+ .hamburger-menu-container{
+     width: 25px;
+     margin-left: 20px;
+     margin-right: 22px;
+     
+    }
+   
+    .hamburger-menu-icon{
+     width: 100%;
+    }
+   
+    .youtube-logo-container{
+     width: 100px;
+     margin-right: 50px;
+     
+    }
+    .youtube-logo-icon{
+     width: 100%;
+    }
+
+ .middle-end-container{
+     display: flex;
+     flex-direction: row;
+     
+     align-items: center;
+     flex: 1;
+ }
+
+ .search-bar-container{
+     height: 40px;
+     
+
+     }
+
+.search-bar{
+     height: 40px;
+     padding-left: 15px;
+     border-color: rgb(204, 204, 204);
+     border-style: solid;
+     border-width: 0.9px;
+     width: 450px;
+   
+}
+
+ .search-icon-container{
+     display: flex;
+     flex: 1;
+     border-width: 1px ;
+     border-style: solid;
+     border-color:rgb(204, 204, 204);
+     height: 40px;
+     justify-content: center;
+     background-color: none;
+     width: 59px;
+     
+   }
+   
+    .search-icon{
+     width: 28px;
+     justify-content: center;
+     margin-top: 5px;
+}
+ 
+   
+
+     .voice-search-container{
+          width: 40px;
+          margin-left: 15px;
+          background-color: rgb(234, 234, 234);
+          height: 40px;
+          border-radius: 100%;
+          border: none;
+          margin-right: 150px;
+     }
+
+     .voice-search-icon{
+          height: 25px;
+          margin-top: 5px;
+     }
+        
+         
+        
+    
+
+      
+
+     .right-end-container{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          
+          
+          width: 250px;
+          height: 40px;
+         
+          }
+
+ 
+
+ .upload-icon-container{
+  width: 25px;
+  
+ }
+.upload-icon{
+     width: 30px;
+}
+ .youtube-apps-container{
+  width: 25px;
+ }
+
+ .notifications-icon{
+  width: 30px;
+
+ }
+
+ .youtube-apps-icon{
+     width: 30px;
+ }
+
+ .mychannelprofile{
+      width: 35px;
+ }
+
+ .mychannelprofile-img{
+  width: 40px;
+  
+ }
+
+ 
+ 
+
+
+body{
+     padding-top: 85px;
+     padding-left: 95px;
+}
+
+.Create{
+     position: relative;
+}
+
+.create{
+     color: white;
+     background-color: grey;
+     position: absolute;
+     margin-top: 10px;
+     opacity: 0;
+
+  
+
+}
+.create:hover{
+     opacity: 1;
+}
